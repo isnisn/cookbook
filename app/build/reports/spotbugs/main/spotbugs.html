@@ -1,0 +1,264 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+				color: red;
+				font-weight: bold;
+		}
+		.priority-2 {
+				color: orange;
+				font-weight: bold;
+		}
+		.priority-3 {
+				color: green;
+				font-weight: bold;
+		}
+		.priority-4 {
+				color: blue;
+				font-weight: bold;
+		}
+		</style>
+      <script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+   </head>
+   <body>
+      <h1>
+         <a href="https://spotbugs.github.io/">SpotBugs</a> Report</h1>
+      <h2>Project Information</h2>
+      <p>Project: 
+		app (spotbugsMain)</p>
+      <p>SpotBugs version: 4.8.3</p>
+      <p>Code analyzed:</p>
+      <ul>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/CommentDao.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/CommentDaoImpl.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/RecipeDaoImpl.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Error$Tag.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Error$Recipe.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/UserDao.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/IngredientDao.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/UserDaoImpl.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Success$Tag.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/TagDao.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Error$Sql.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/TagDaoImpl.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Error$Ingredient.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Error$Step.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/DbConnection.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Success.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/BaseSearchBy.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Success$User.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Info$Ingredient.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Error$Unit.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Error$User.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Error.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/SearchByTag.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Success$Step.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/StepDao.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Success$Ingredient.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/RecipeDao.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Error$Comment.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Success$Recipe.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/IngredientDaoImpl.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/SearchBy.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/MessageFeedback$Info.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/SearchByName.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/StepDaoImpl.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/SearchByIngredient.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/EnumSearch.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/controller/BaseDaoImpl.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/ToastType.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/MainViewInterface.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/SearchableComboBox$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/StepTableView.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/RecipesScrollPane.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/CheckBoxSearch.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/TagManagementTableView$2.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/AdminViewPane$4.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/CommentListView.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/StepTableView$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/CreateRecipeView$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/TagBox.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/SearchableComboBox.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/TagManagementTableView$4.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/RecipeViewPane$2.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/AdminViewPane$2.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/ExpandableText.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/TagManagementTableView$3.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/SearchableComboBox$2.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/AdminViewPane.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/CreateRecipeView.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/TagPreviewCell.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/AlertPopup.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/TagManagementTableView$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/LoadingViewPane.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/ManageIngredientView.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/DisplayRecipePane.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/TagManagementTableView.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/Toast$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/AdminViewPane$3.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/CreateRecipeView$2.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/RecipeViewPane$3.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/StepTableView$2.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/CookBookToolBar.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/AdminViewPane$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/LoginViewPane.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/RecipeViewPane$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/AdvancedSearchComponent.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/DisplayRecipePane$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/DeleteableTagBox.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/RecipesScrollPane$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/AlertInterface.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/ColorPickingCell.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/CommentListView$CommentListCell$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/AdminUserControlView.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/RecipesScrollPane$3.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/MainViewPane.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/RecipesScrollPane$5.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/EditableCell.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/SearchComponent.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/CommentListView$CommentListCell.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/IngredientTableView$2.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/CommentListView$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/MainViewPane$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/RecipesScrollPane$2.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/RecipeViewPane.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/ManageTagView$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/ManageTagView.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/IngredientManagementTableView.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/ButtonCell.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/IngredientManagementTableView$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/Toast.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/ManageIngredientView$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/IngredientTableView.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/RecipesScrollPane$4.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/DeleteableIngredientTableView.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/IngredientTableView$3.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/viewer/IngredientTableView$1.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/model/ObservableStep.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/model/Recipe.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/model/Comment.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/model/ObservableIngredient.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/model/Unit.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/model/User.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/model/Ingredient.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/model/Step.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/model/Tag.class</li>
+         <li>/Users/andreasnorje/Code/cookbook/app/build/classes/java/main/cookbook/App.class</li>
+      </ul>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Metrics</h2>
+      <p>4657 lines of code analyzed,
+	in 116 classes, 
+	in 4 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>0</b>
+            </td>
+            <td align="right">
+               <b>0.00</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Contents</h2>
+      <ul>
+         <li>
+            <a href="#Details">Details</a>
+         </li>
+      </ul>
+      <h1>Summary</h1>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>0</b>
+            </td>
+         </tr>
+      </table>
+      <h1>Warnings</h1>
+      <p>Click on a warning row to see full context information.</p>
+      <h1>
+         <a name="Details">Details</a>
+      </h1>
+   </body>
+</html>

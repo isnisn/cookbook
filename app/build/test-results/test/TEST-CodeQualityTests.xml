@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CodeQualityTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-23T09:23:48" hostname="MBPsomtrAndreas.guest.lnu.se" time="0.053">
+  <properties/>
+  <testcase name="codeQuality()" classname="CodeQualityTests" time="0.053"/>
+  <system-out><![CDATA[0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/StepDaoImpl.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/CommentDao.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/UserDao.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/BaseSearchBy.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/BaseDaoImpl.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/IngredientDaoImpl.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/DbConnection.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/SearchByTag.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/EnumSearch.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/SearchBy.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/SearchByIngredient.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/TagDao.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/CommentDaoImpl.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/MessageFeedback.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/RecipeDao.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/RecipeDaoImpl.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/IngredientDao.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/UserDaoImpl.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/TagDaoImpl.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/SearchByName.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/controller/StepDao.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/DeleteableTagBox.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/CookBookToolBar.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/StepTableView.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/MainViewPane.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/AdvancedSearchComponent.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/ColorPickingCell.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/TagManagementTableView.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/IngredientManagementTableView.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/RecipesScrollPane.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/IngredientTableView.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/RecipeViewPane.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/SearchComponent.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/CommentListView.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/ToastType.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/ManageTagView.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/LoadingViewPane.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/CheckBoxSearch.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/EditableCell.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/MainViewInterface.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/ManageIngredientView.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/AdminUserControlView.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/CreateRecipeView.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/AlertInterface.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/AdminViewPane.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/SearchableComboBox.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/ExpandableText.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/DeleteableIngredientTableView.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/TagPreviewCell.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/Toast.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/DisplayRecipePane.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/LoginViewPane.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/TagBox.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/ButtonCell.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/viewer/AlertPopup.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/model/Unit.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/model/Tag.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/model/Ingredient.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/model/ObservableStep.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/model/User.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/model/Comment.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/model/ObservableIngredient.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/model/Recipe.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/model/Step.java
+0 CheckStyle Issues in /Users/andreasnorje/Code/cookbook/app/src/main/java/cookbook/App.java
+]]></system-out>
+  <system-err><![CDATA[Findbugs xml file not found: ./build/reports/spotbugs/spotbugs.xml
+Consider making code change to initiate regeneration of the xml (will try backup)
+Restored xml from backup: ./build/reports/spotbugs/spotbugs_bak.xml
+]]></system-err>
+</testsuite>
